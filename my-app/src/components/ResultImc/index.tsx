@@ -5,8 +5,8 @@ import { View, Text } from "react-native";
 export default function ResultImc(props:any) {
     return(
         <View>
-            <Text>{props.resultImc}</Text>  
             <Text>{props.messageResultImc}</Text>  
+            <Text>{props.resultImc}</Text>  
         </View>
     )
 }
