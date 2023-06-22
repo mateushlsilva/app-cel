@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Button, Text, TextInput, View } from "react-native";
+import ResultImc from "../ResultImc";
 
 export default function Form() {
     return(
@@ -21,6 +22,10 @@ export default function Form() {
                 title="Calcular IMC"
                 />
             </View>
+            <ResultImc 
+            messageResultImc={messageImc}
+            resultImc={imc}
+             />
         </View>
     )
 }
